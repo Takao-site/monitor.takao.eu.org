@@ -1,31 +1,134 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Takao-Site # Your GitHub organization or username, where this repository lives
+repo: monitor.takao.eu.org # The name of this repository
 
 sites:
   - name: Google
     url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+    assignees: # Users to assign downtime issues (optional)
+    - TakaoDeveloper 
+  - name: Cloudflare DNS
+    check:  "TCP-ping"
+    url: 1.1.1.1
+    port: 53
+    assignees: # Users to assign downtime issues (optional)
+    - TakaoDeveloper 
+  - name: Takao
+    url: https://takao.eu.org
+    assignees: # Users to assign downtime issues (optional)
+    - TakaoDeveloper 
+  - name: Takao Development
+    url: https://dev.takao.eu.org
+    assignees: # Users to assign downtime issues (optional)
+    - TakaoDeveloper 
+#  - name: Takao GameStudio
+#    url: https://game.takao.eu.org
+#     assignees: # Users to assign downtime issues (optional)
+#     - TakaoDeveloper 
+  - name: Site Management
+    url: $SITEMANAGER
+    assignees: # Users to assign downtime issues (optional)
+    - TakaoDeveloper 
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # baseUrl: /monitor # where "repo" is your repository name
+  cname: monitor.takao.eu.org
+  logoUrl: https://raw.githubusercontent.com/Takao0430/monitor/master/icon.svg
+  name: Monitor
+  theme: night
+  introTitle: "**サービスモニター**"
+  introMessage: "このサイトではGithub APIを使用して、リアルタイムでサービスの稼働状況を監視することができます"
+  faviconSvg: https://raw.githubusercontent.com/Takao0430/monitor/master/icon.svg
+  robotsText: "User-agent: * \n Disallow: /"
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+user-agent: github-monitor-by-takao
+
+i18n:
+ url: "URL"
+ status: "Status"
+ history: "履歴"
+ responseTime: "応答時間"
+ uptime: "稼働状況"
+ up: "稼働中"
+ degraded: "パフォーマンス低下"
+ down: "ダウン"
+ responseTimeGraphAlt: "応答時間のグラフ"
+ ms: "ms"
+ responseTimeDay: "1日の応答時間"
+ responseTimeWeek: "1週間の応答時間"
+ responseTimeMonth: "1ヶ月の応答時間"
+ responseTimeYear: "1年間の応答時間"
+ uptimeDay: "１日の稼働状況"
+ uptimeWeek: "1週間の稼働状況"
+ uptimeMonth: "1ヶ月の稼働状況"
+ uptimeYear: "１年間の稼働状況"
+ liveStatus: "ライブステータス"
+ liveStatusHtmlComment: "<!--live status-->"
+ allSystemsOperational: "全システム稼働中"
+ degradedPerformance: "パフォーマンス低下"
+ completeOutage: "全システム停止中"
+ partialOutage: "一部システム停止中"
+ activeIncidents: "発生中の障害"
+ incidentReport: "障害レポート No.$NUMBER →"
+ activeIncidentSummary: "$DATE に ステータスコード:$POSTS を返しました"
+ incidentTitle: "障害 No.$NUMBER の詳細"
+ incidentDetails: "障害の詳細"
+ incidentFixed: "修復済み"
+ incidentOngoing: "進行中"
+ incidentOpenedAt: "発生日時:"
+ incidentClosedAt: "修復日時"
+ incidentViewOnGitHub: "GitHubでの表示と購読"
+ incidentCommentSummary: "$DATE に $AUTHOR が投稿しました"
+ incidentBack: "← 障害一覧"
+ pastIncidents: "過去の障害"
+ pastIncidentsResolved: "$MINUTES 分で修復"
+ overallUptime: "稼働率: $UPTIME"
+ overallUptimeTitle: "稼働率"
+ averageResponseTime: "平均応答時間: $TIMEms"
+ averageResponseTimeTitle: "平均応答時間"
+ sevelDayResponseTime: "一週間の応答時間"
+ responseTimeMs: "応答時間 (ms)"
+ loading: "読み込み中"
+ navGitHub: GitHub
+ footer: powered by [Upptime](https://upptime.js.org)
+ rateLimitExceededTitle: "レート制限を超えました"
+ rateLimitExceededIntro: "1時間に実行できるリクエストの数を超えたため、このWebサイトに再度アクセスするまで待つ必要があります。あるいは、GitHub個人用アクセストークンを追加して、このWebサイトを引き続き使用することもできます。"
+ rateLimitExceededWhatDoesErrorMean: "このエラーは何を意味するのでしょうか?"
+ rateLimitExceededErrorMeaning: "このWebサイトは**GitHub API**を使用して、Webサイトのステータスをリアルタイムで監視しています。デフォルトでは、GitHubは各IPアドレスに1時間あたり60件のリクエストが可能です。"
+ rateLimitExceededErrorHowCanFix: "どうすれば修正できますか?"
+ rateLimitExceededErrorFix: "1時間待つと、IPアドレスの制限が解除されます。GitHub個人用アクセストークンを追加すると、追加で1時間あたり5,000リクエストが可能になります。"
+ rateLimitExceededGeneratePAT: "個人用アクセストークンの生成方法を知る"
+ rateLimitExceededHasSet: "個人用アクセストークンがセットされています"
+ rateLimitExceededRemoveToken: "トークンを削除する"
+ rateLimitExceededGitHubPAT: "GitHub個人用アクセストークン"
+ rateLimitExceededCopyPastePAT: "トークンをコピーして貼り付ける"
+ rateLimitExceededSaveToken: "トークンを保存する"
+ errorTitle: "エラーが発生しました"
+ errorIntro: "最新のステータスの詳細を取得しようとしてエラーが発生しました"
+ errorText: "しばらくしてからもう一度お試しください"
+ errorHome: "ホームページへ戻る"
+ pastScheduledMaintenance: "過去の定期メンテナンス"
+ scheduledMaintenance: "定期メンテナンス"
+ scheduledMaintenanceSummaryStarted: "$DATE から始まり、 $DURATION 分間予定されています"
+ scheduledMaintenanceSummaryStarts: "$DATE から始まり、 $DURATION 分間予定されています"
+ startedAt: "から始まった"
+ startsAt: "から始まる"
+ duration: "間隔"
+ durationMin: "$DURATION 分"
+ incidentCompleted: "完了"
+ incidentScheduled: "予定されている"
+ duration24H: "1日"
+ duration7D: "1週間"
+ duration30D: "1ヶ月"
+ duration1Y: "1年"
+ durationAll: "全期間"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
