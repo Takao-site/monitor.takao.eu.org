@@ -10,7 +10,7 @@
 
 [Upptime](https://upptime.js.org)を使用すると、GitHub リポジトリを利用して、無制限かつ無料の独自の稼働時間モニターとステータスページを取得できます。
 
-インシデントレポートとして[Issues](https://github.com/Takao.eu.org/monitor.takao.eu.org/issues)、稼働時間モニターとして [Actions](https://github.com/Takao.eu.org/monitor.takao.eu.org/actions)を使用します。
+インシデントレポートとして[Issues](https://github.com/Takao-Site/monitor.takao.eu.org/issues)、稼働時間モニターとして [Actions](https://github.com/Takao-Site/monitor.takao.eu.org/actions)を使用します。
 
 ステータスページは[Status Page](https://monitor.takao.eu.org)をご覧ください。
 
