@@ -35,12 +35,12 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # baseUrl: /monitor # where "repo" is your repository name
   cname: monitor.takao.eu.org
-  logoUrl: https://raw.githubusercontent.com/Takao0430/monitor/master/icon.svg
+  logoUrl: https://raw.githubusercontent.com/Takao-Site/monitor.takao.eu.org/master/icon.svg
   name: Monitor
   theme: night
   introTitle: "**サービスモニター**"
   introMessage: "このサイトではGithub APIを使用して、リアルタイムでサービスの稼働状況を監視することができます"
-  faviconSvg: https://raw.githubusercontent.com/Takao0430/monitor/master/icon.svg
+  faviconSvg: https://raw.githubusercontent.com/Takao-Site/monitor.takao.eu.org/master/icon.svg
   robotsText: "User-agent: * \n Disallow: /"
   navbar:
     - title: Status
