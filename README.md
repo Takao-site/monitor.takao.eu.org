@@ -1,6 +1,6 @@
 # [📈 ライブステータス](https://monitor.takao.eu.org): <!--live status--> **全システム稼働中**
 
-This repository contains the open-source uptime monitor and status page for [Takao-Site](https://monitor.takao.eu.org), powered by [Upptime](https://github.com/upptime/upptime).
+[Upptime](https://github.com/upptime/upptime)は、オープンソースの稼働時間モニターとステータスページでこのリポジトリは[Takao-Site](https://monitor.takao.eu.org)が管理しています。
 
 [![Uptime CI](https://github.com/Takao-Site/monitor.takao.eu.org/workflows/Uptime%20CI/badge.svg)](https://github.com/Takao-Site/monitor.takao.eu.org/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/Takao-Site/monitor.takao.eu.org/workflows/Response%20Time%20CI/badge.svg)](https://github.com/Takao-Site/monitor.takao.eu.org/actions?query=workflow%3A%22Response+Time+CI%22)
@@ -8,7 +8,11 @@ This repository contains the open-source uptime monitor and status page for [Tak
 [![Static Site CI](https://github.com/Takao-Site/monitor.takao.eu.org/workflows/Static%20Site%20CI/badge.svg)](https://github.com/Takao-Site/monitor.takao.eu.org/actions?query=workflow%3A%22Static+Site+CI%22)
 [![Summary CI](https://github.com/Takao-Site/monitor.takao.eu.org/workflows/Summary%20CI/badge.svg)](https://github.com/Takao-Site/monitor.takao.eu.org/actions?query=workflow%3A%22Summary+CI%22)
 
-With [Upptime](https://upptime.js.org), you can get your own unlimited and free uptime monitor and status page, powered entirely by a GitHub repository. We use [Issues](https://github.com/Takao-Site/monitor.takao.eu.org/issues) as incident reports, [Actions](https://github.com/Takao-Site/monitor.takao.eu.org/actions) as uptime monitors, and [Pages](https://monitor.takao.eu.org) for the status page.
+[Upptime](https://upptime.js.org)を使用すると、GitHub リポジトリを利用して、無制限かつ無料の独自の稼働時間モニターとステータスページを取得できます。
+
+インシデントレポートとして[Issues](https://github.com/Takao.eu.org/monitor.takao.eu.org/issues)、稼働時間モニターとして [Actions](https://github.com/Takao.eu.org/monitor.takao.eu.org/actions)を使用します。
+
+ステータスページは[Status Page](https://monitor.takao.eu.org)をご覧ください。
 
 ## [📈 Live Status](https://demo.upptime.js.org): <!--live status--> **全システム稼働中**
 
@@ -26,7 +30,7 @@ With [Upptime](https://upptime.js.org), you can get your own unlimited and free 
 
 <!--end: status pages-->
 
-[**Visit our status website →**](https://monitor.takao.eu.org)
+[**ステータスページを訪れる →**](https://monitor.takao.eu.org)
 
 ## 📄 License
 
