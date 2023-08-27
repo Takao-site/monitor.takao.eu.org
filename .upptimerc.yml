@@ -28,7 +28,11 @@ sites:
   - name: Site Management
     url: $SITEMANAGER
     assignees: # Users to assign downtime issues (optional)
-    - TakaoDeveloper 
+    - TakaoDeveloper
+  - name: Comment Management
+    url: $COMMENTMANAGER
+    assignees: # Users to assign downtime issues (optional)
+    - TakaoDeveloper
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
