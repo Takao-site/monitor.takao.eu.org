@@ -60,9 +60,9 @@
     "url": "https://dev.takao.eu.org",
     "icon": "https://icons.duckduckgo.com/ip3/dev.takao.eu.org.ico",
     "slug": "takao-development",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -71,7 +71,9 @@
     "timeWeek": 187,
     "timeMonth": 209,
     "timeYear": 231,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-10-15": 0
+    }
   },
   {
     "name": "Site Management",
