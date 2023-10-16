@@ -11,8 +11,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 128,
-    "timeDay": 62,
-    "timeWeek": 117,
+    "timeDay": 81,
+    "timeWeek": 76,
     "timeMonth": 129,
     "timeYear": 128,
     "dailyMinutesDown": {}
@@ -29,8 +29,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 69,
-    "timeDay": 36,
-    "timeWeek": 46,
+    "timeDay": 72,
+    "timeWeek": 42,
     "timeMonth": 51,
     "timeYear": 69,
     "dailyMinutesDown": {}
@@ -47,8 +47,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 247,
-    "timeDay": 312,
-    "timeWeek": 193,
+    "timeDay": 253,
+    "timeWeek": 196,
     "timeMonth": 208,
     "timeYear": 247,
     "dailyMinutesDown": {
@@ -61,18 +61,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/dev.takao.eu.org.ico",
     "slug": "takao-development",
     "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "98.05%",
-    "uptimeWeek": "99.72%",
-    "uptimeMonth": "99.94%",
-    "uptimeYear": "99.98%",
+    "uptime": "99.45%",
+    "uptimeDay": "47.77%",
+    "uptimeWeek": "92.54%",
+    "uptimeMonth": "98.28%",
+    "uptimeYear": "99.45%",
     "time": 231,
-    "timeDay": 238,
-    "timeWeek": 187,
-    "timeMonth": 209,
+    "timeDay": 0,
+    "timeWeek": 184,
+    "timeMonth": 207,
     "timeYear": 231,
     "dailyMinutesDown": {
-      "2023-10-15": 28
+      "2023-10-16": 42,
+      "2023-10-15": 710
     }
   },
   {
@@ -81,18 +82,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "site-management",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.16%",
+    "uptimeDay": "49.70%",
+    "uptimeWeek": "92.81%",
+    "uptimeMonth": "98.35%",
+    "uptimeYear": "99.16%",
     "time": 479,
-    "timeDay": 510,
-    "timeWeek": 498,
-    "timeMonth": 596,
+    "timeDay": 0,
+    "timeWeek": 493,
+    "timeMonth": 587,
     "timeYear": 479,
     "dailyMinutesDown": {
-      "2023-10-15": 0
+      "2023-10-16": 42,
+      "2023-10-15": 682
     }
   },
   {
@@ -106,11 +108,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 5054,
-    "timeDay": 6995,
-    "timeWeek": 4613,
-    "timeMonth": 6366,
-    "timeYear": 5054,
+    "time": 5104,
+    "timeDay": 7585,
+    "timeWeek": 5438,
+    "timeMonth": 6337,
+    "timeYear": 5104,
     "dailyMinutesDown": {}
   }
 ]
